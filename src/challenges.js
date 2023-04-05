@@ -7,6 +7,7 @@ const compareTrue = (parametro1, parametro2) => {
 };
 
 // Desafio 2 - Crie a função splitSentence
+const splitSentence = (parametro) => parametro.split(' ');
 
 // Desafio 3 - Crie a função concatName
 
