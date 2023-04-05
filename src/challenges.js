@@ -10,7 +10,8 @@ const compareTrue = (parametro1, parametro2) => {
 const splitSentence = (parametro) => parametro.split(' ');
 
 // Desafio 3 - Crie a função concatName
-
+const concatName = (parametro) =>
+  `${parametro[parametro.length - 1]}, ${parametro[0]}`;
 // Desafio 4 - Crie a função footballPoints
 
 // Desafio 5 - Crie a função highestCount
