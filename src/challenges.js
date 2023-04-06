@@ -88,6 +88,13 @@ const decode = (text) => text
   .replace(/4/g, 'o')
   .replace(/5/g, 'u');
 // Desafio 10 - Crie a função techList
+const techList = (arrTech, name) => {
+  if (!arrTech || !name) {
+    return [];
+  }
+  return arrTech.map((tech) => ({ tech, name }))
+    .sort((a, b) => a.tech.localeCompare(b.tech));
+};
 
 // Não modifique essas linhas
 module.exports = {
